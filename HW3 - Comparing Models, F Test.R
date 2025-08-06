@@ -1,3 +1,9 @@
+###################################
+# Author: Evan Whitfield
+# Date: 8/5/2025
+# Purpose: To Answer questions from HW3 in ST503
+#####################################
+
 library(faraway)
 
 #Problem 1
@@ -61,5 +67,6 @@ RSE_list <- c(0.7875, 0.7506, 0.7168, 0.7108, 0.7073, 0.7102, 0.7048, 0.7084)
 plot(RSE_list, type = "l")
 
 R_squared_list <- c(0.5394, 0.5859, 0.6264, 0.6366, 0.6441, 0.6451,0.6544, 0.6548)
+
 
 plot(R_squared_list, type = "l")
